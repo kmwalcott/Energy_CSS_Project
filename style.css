@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+section {
+    position: relative;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D74817;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+nav ul li {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#company-name{
+    display: inline-block;
+    color: #D74817;
+    font-size: 26px;
+}
+
+.clr {
+    clear: both;
+}
+
+#nav1{
+    width: 33%;
+}
+
+#nav2{
+    width: 33%;
+}
+
+button {
+    background-color: #D74817;
+    border: 0px;
+    width: 40%;
+    height: 20%;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    color: white;
+}
+
+.contact-box {
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 200px;
+    border-radius: 10%;
+    text-align: center;
+    float: right;
+    margin-right: 25%;
+    margin-top: 100px;
+}
+
+.text-left {
+    background-color: white;
+    float: left;
+    color: #D74817;
+}
+
+.contact-box p {
+    padding-top: 10px;
+}
+
+#gas {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#radiation {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+#solar {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+#fire {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+#leaf {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+}
+
+#plug {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+#engineer-pic {
+    float: left;
+    margin-left: 10%;
+}
+
+footer {
+    background-color: white;
+    height: 300px;
+    color: black;
+}
+
+#slogan {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+}
+
+span {
+    font-size: 20px;
+}
+
+.digit {
+    background-color: #D74817;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+#dollar-counter, #co2-counter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-left {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    border-right: solid black;
+}
+
+#footer-right {
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#leed-om {
+    margin-top: 10%;
+}
